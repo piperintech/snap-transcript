@@ -1,0 +1,38 @@
+# Environment variables (never commit API keys)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Backups
+*.backup
+*.bak
+*-backup.*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Node modules (if you ever add Node.js tools)
+node_modules/
+package-lock.json
